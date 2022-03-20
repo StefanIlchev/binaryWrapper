@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="ilchev.stefan.binarywrapper">
+
+	<queries>
+
+		<intent>
+			<action android:name="android.settings.APPLICATION_DETAILS_SETTINGS" />
+		</intent>
+
+		<intent>
+			<action android:name="android.settings.MANAGE_UNKNOWN_APP_SOURCES" />
+		</intent>
+	</queries>
+
+	<uses-permission-sdk-23 android:name="android.permission.FOREGROUND_SERVICE" />
+
+	<uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+
+	<uses-permission-sdk-23 android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+	<uses-permission-sdk-23 android:name="android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION" />
+</manifest>
