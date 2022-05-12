@@ -6,7 +6,7 @@ buildscript {
 	}
 
 	dependencies {
-		classpath 'com.android.tools.build:gradle:7.1.3'
+		classpath 'com.android.tools.build:gradle:7.2.0'
 	}
 }
 
@@ -25,6 +25,7 @@ allprojects {
 
 android {
 	compileSdk 31
+	namespace 'ilchev.stefan.binarywrapper'
 
 	compileOptions {
 		sourceCompatibility JavaVersion.VERSION_11
@@ -33,7 +34,6 @@ android {
 
 	defaultConfig {
 		minSdk 26
-		targetSdk compileSdk
 
 		aarMetadata {
 			minCompileSdk minSdk
